@@ -1,5 +1,5 @@
 pragma solidity ^0.8.21;
-// License
+
 // SPDX-License-Identifier: MIT
 
 contract DataContract {
