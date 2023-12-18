@@ -146,6 +146,6 @@ This command deploys the build site to surge.sh by default, feel free to edit to
 
 
 ### Useful links
-* https://www.encode.club/open-data-hack
+* https://rebuild.dataverse.city/
 * https://ownershiplabs.notion.site/DataverseOS-Builders-Hackathon-2-0-377b2b3337454311ace6eb82a6ef5472
 * https://docs.tableland.xyz/sdk/database/
