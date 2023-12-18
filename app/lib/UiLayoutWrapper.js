@@ -81,7 +81,7 @@ function UiLayoutWrapper({ children }) {
                     <hr />
                     <br />
                     {APP_NAME} ©2023. Created for the&nbsp;
-                    <a href="https://www.encode.club/open-data-hack" target='_blank'>Encode Open Data Hack</a>.
+                    <a href="https://rebuild.dataverse.city/" target='_blank'>Rebuild Ownership 2.0: Internet Privacy</a>.
 
                 </Footer>
             </Layout>
