@@ -12,11 +12,9 @@ DataX is a bid/ask marketplace concept for data similar to StockX where users ca
 Built using NextJS, Filecoin FVM, Tableland, Dataverse, Saturn, and web3.storage for the REBUILD OWNERSHIP 2.0: INTERNET PRIVACY Hackathon 2023.
 
 
-Live Demo: https://data-x.surge.sh (calibration)
+Live Demo: https://data-x-five.vercel.app/
 
-Demo video: https://youtu.be/QQEwZOEAQjI
-
-Pitch slides: https://docs.google.com/presentation/d/1h30Fic6S2ALmAOz_mFOzgp0uBYAjAMlzdhefXmbDgOo/edit#slide=id.g28a8e7e850a_0_140
+Demo video: https://youtu.be/HKO962wLtVQ
 
 Note that networks with faster block times will give better UX and settlement for table/backend mutations (ex: indexing listings for search, recording purchases/offers). Calibration has a 30s block time - this has been edited for the demo video.
 
@@ -95,7 +93,7 @@ Dataverse (7): Some overlap with tableland functionality, but used this as a wra
 
 <!-- Saturn: Data validation (using browser client). https://github.com/filecoin-saturn/browser-client -->
 
- <p>Note this project is a hackathon prototype and would require additional work to be mainnet/production ready.</p>
+ 
 
 
 ## Running the project (from scratch)
