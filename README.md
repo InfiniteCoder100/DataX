@@ -68,20 +68,17 @@ Uploaded Datasets all have a validation flag on them. By default all datasets ar
 ## Technologies used
 
 
-Filecoin FVM: The Filecoin File Verification Marketplace (FVM) integration ensures the security and immutability of listed data. This technology guarantees that data remains tamper-proof and accessible only to authorized users. Filecoin smart contracts are used for access control and auditing of offers. Every DataX listing gets its own unique contract.
+1. Filecoin FVM: The Filecoin File Verification Marketplace (FVM) integration ensures the security and immutability of listed data. This technology guarantees that data remains tamper-proof and accessible only to authorized users. Filecoin smart contracts are used for access control and auditing of offers. Every DataX listing gets its own unique contract.
 
-Example contract here: https://calibration.filscan.io/address/0x6886489D4c3e3C89b70a56DC8e8984eccF520728/
+2. Tableland: Tableland is employed to manage the complex data relationships within the marketplace, enabling efficient search and discovery of relevant data sets. 
 
+3. web3.storage: To address the challenge of decentralized storage, we integrated web3.storage, which utilizes blockchain technology to securely store and retrieve data files.
 
-Tableland: Tableland is employed to manage the complex data relationships within the marketplace, enabling efficient search and discovery of relevant data sets. 
+4. Filecoin Saturn: Saturn secures each data set client side with .car files delivered to the purchaser that guarantee additional tamper and hack-proofing from the original upload time (i.e. the original dataset is verified to be the one delivered on purchase). Validation is done using a hosted browser client service worker.
 
-web3.storage: To address the challenge of decentralized storage, we integrated web3.storage, which utilizes blockchain technology to securely store and retrieve data files.
+5. DataverseOS: Authentication and user state management plugging into existing wallets and providers the customer may already use (i.e. metamask).
 
-Filecoin Saturn: Saturn secures each data set client side with .car files delivered to the purchaser that guarantee additional tamper and hack-proofing from the original upload time (i.e. the original dataset is verified to be the one delivered on purchase). Validation is done using a hosted browser client service worker.
-
-DataverseOS: Authentication and user state management plugging into existing wallets and providers the customer may already use (i.e. metamask).
-
-NextJS: We utilized NextJS to create a responsive and interactive frontend interface that offers a seamless browsing experience for users. Deployed on surge.
+6. NextJS: We utilized NextJS to create a responsive and interactive frontend interface that offers a seamless browsing experience for users. Deployed on surge.
 
 <!-- Filecoin (8): Compatiable with many of the existing EVM toolkits like ethers made it easy to get up and running. Actors/deals have some learning curve.
 Tableland (7): Bit harder to debug and somewhat subject to the block settlement times with tables. Some missing functionality with the react sdk but the discord was helpful
